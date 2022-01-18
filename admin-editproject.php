@@ -131,9 +131,8 @@ $url = $result["url"];
                         <div class="row ">
                             <div id="emailHelp" class="form-text">ระดับชั้น</div>
                             <select class="form-select" name="class">
-                                <option value="มัธยม" <?php if ($class_name == 'มัธยม') echo 'selected' ?>>มัธยม</option>
-                                <option value="ปวช" <?php if ($class_name == 'ปวช') echo 'selected' ?>>ปวช</option>
-                                <option value="ปวส" <?php if ($class_name == 'ปวส') echo 'selected' ?>>ปวส</option>
+                                <option value="ปวช" <?php if ($class_name == 'ปวช.3') echo 'selected' ?>>ปวช.3</option>
+                                <option value="ปวส" <?php if ($class_name == 'ปวส.2') echo 'selected' ?>>ปวส.2</option>
                             </select>
                         </div>
                         <div class="row ">

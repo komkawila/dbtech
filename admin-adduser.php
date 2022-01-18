@@ -122,6 +122,7 @@ if (!isset($_SESSION['email'])) {
                                     <option value="มัธยม">มัธยม</option>
                                     <option value="ปวช">ปวช</option>
                                     <option value="ปวส">ปวส</option>
+                                    <option value="อื่นๆ">อื่นๆ</option>
                                 </select>
                             </div>
                             <div class="row ">

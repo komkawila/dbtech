@@ -50,10 +50,6 @@ include('server.php');
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div class="row align-items-start">
             <div class="col-3 ">
             </div>

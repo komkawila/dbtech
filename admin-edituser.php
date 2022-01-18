@@ -147,6 +147,7 @@ $class_name = $result["class_name"];
                                 <option value="มัธยม" <?php if ($class_name == 'มัธยม') echo 'selected' ?>>มัธยม</option>
                                 <option value="ปวช" <?php if ($class_name == 'ปวช') echo 'selected' ?>>ปวช</option>
                                 <option value="ปวส" <?php if ($class_name == 'ปวส') echo 'selected' ?>>ปวส</option>
+                                <option value="อื่นๆ" <?php if ($class_name == 'อื่นๆ') echo 'selected' ?>>อื่นๆ</option>
                             </select>
                         </div>
                         <div class="row ">

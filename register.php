@@ -47,7 +47,6 @@ include('server.php');
 
     <div class="container">
         <br />
-        <br />
         <div class="row align-items-start">
             <div class="col-3 ">
             </div>
@@ -90,16 +89,20 @@ include('server.php');
                                 <label for="class_name" class="col-sm-3 col-form-label">ระดับชั้น</label>
                                 <div class="col-sm-9 text-start">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="class_name" value="ปวช.3" checked>
+                                        <input class="form-check-input" type="radio" name="class_name" value="มัธยม" checked>
                                         <label class="form-check-label" for="inlineRadio1">มัธยม</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="class_name" value="ปวช.3" >
+                                        <input class="form-check-input" type="radio" name="class_name" value="ปวช" >
                                         <label class="form-check-label" for="inlineRadio1">ปวช</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="class_name" value="ปวส.2">
+                                        <input class="form-check-input" type="radio" name="class_name" value="ปวส">
                                         <label class="form-check-label" for="inlineRadio2">ปวส</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="class_name" value="อื่นๆ">
+                                        <label class="form-check-label" for="inlineRadio2">อื่นๆ</label>
                                     </div>
                                 </div>
                             </div>

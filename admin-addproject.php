@@ -115,9 +115,8 @@ if (!isset($_SESSION['email'])) {
                             <div class="row ">
                                 <div id="emailHelp" class="form-text">ระดับชั้น</div>
                                 <select class="form-select" name="class">
-                                    <option value="มัธยม">มัธยม</option>
-                                    <option value="ปวช">ปวช</option>
-                                    <option value="ปวส">ปวส</option>
+                                    <option value="ปวช.3">ปวช.3</option>
+                                    <option value="ปวส.2">ปวส.2</option>
                                 </select>
                             </div>
                             <div class="row ">
